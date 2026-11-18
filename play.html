@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>模型发布轨 · Specul</title>
-  <meta name="description" content="随官方模型发布收录的演示清单：每条挂官方 model card、Spaces 或 releases 的发布日期与本站核验日，新模型发布触发一轮收录，季度复核链接存活。" />
-  <link rel="canonical" href="https://demos.specul.com/releases.html" />
+  <title>运行演示 · Specul</title>
+  <meta name="description" content="站内播放器：用受限 iframe 打开原始 GitHub Pages 上的 HTML 作品，并列出源码、prompt、仓库与许可状态。" />
+  <link rel="canonical" href="https://demos.specul.com/play.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="模型发布轨 · Specul" />
-  <meta property="og:url" content="https://demos.specul.com/releases.html" />
-  <meta property="og:title" content="模型发布轨 · Specul" />
-  <meta property="og:description" content="随官方模型发布收录的演示清单：每条挂官方 model card、Spaces 或 releases 的发布日期与本站核验日，新模型发布触发一轮收录，季度复核链接存活。" />
+  <meta property="og:site_name" content="运行演示 · Specul" />
+  <meta property="og:url" content="https://demos.specul.com/play.html" />
+  <meta property="og:title" content="运行演示 · Specul" />
+  <meta property="og:description" content="站内播放器：用受限 iframe 打开原始 GitHub Pages 上的 HTML 作品，并列出源码、prompt、仓库与许可状态。" />
   <meta name="theme-color" content="#16121f" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%238b7cf8'/%3E%3Cstop offset='1' stop-color='%2322d3c5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='48' height='48' rx='12' fill='%2305080f'/%3E%3Cpath d='M14 32 L24 12 L34 32' fill='none' stroke='url(%23g)' stroke-width='2.4' stroke-linejoin='round'/%3E%3Ccircle cx='24' cy='27' r='2.4' fill='%2322d3c5'/%3E%3C/svg%3E" />
   <script src="brand.js?v=2b96a18d1fa6"></script>
   <link rel="stylesheet" href="brand.css?v=2b96a18d1fa6" />
   <link rel="stylesheet" href="site.css" />
   <link rel="stylesheet" href="demos.css" />
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"模型发布轨 · Specul","url":"https://demos.specul.com/releases.html","description":"随官方模型发布收录的演示清单：每条挂官方 model card、Spaces 或 releases 的发布日期与本站核验日，新模型发布触发一轮收录，季度复核链接存活。","isPartOf":{"@type":"WebSite","url":"https://demos.specul.com/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"运行演示 · Specul","description":"站内播放器：用受限 iframe 打开原始 GitHub Pages 上的 HTML 作品，并列出源码、prompt、仓库与许可状态。","url":"https://demos.specul.com/play.html","isPartOf":{"@type":"WebSite","name":"Specul","url":"https://specul.com/"}}</script>
 </head>
 <!-- B6（2026-10-09）：--accent 原先在这里被**内联到 body 上**（style="--accent:X"），
      同时头部又写了 :root{--accent:X} —— 两处同一份值，冗余。
@@ -42,7 +42,7 @@
         <a href="https://learn.specul.com/"><span data-zh>学 AI</span><span data-en>Learn</span></a>
         <a href="https://tools.specul.com/"><span data-zh>工具</span><span data-en>Tools</span></a>
         <a href="https://models.specul.com/"><span data-zh>模型</span><span data-en>Models</span></a>
-        <a href="https://demos.specul.com/" aria-current="page"><span data-zh>作品库</span><span data-en>Demos</span></a>
+        <a href="https://demos.specul.com/" aria-current="page"><span data-zh>作品演示</span><span data-en>Playground</span></a>
         <a href="https://hardware.specul.com/" class="nav-group-start"><span data-zh>硬件算力</span><span data-en>Compute</span></a>
         <a href="https://papers.specul.com/"><span data-zh>AI 论文</span><span data-en>AI Papers</span></a>
         <a href="https://chain.specul.com/"><span data-zh>链</span><span data-en>Chain</span></a>
@@ -78,7 +78,7 @@
       <a href="https://learn.specul.com/"><span><span data-zh>学 AI</span><span data-en>Learn</span></span><span class="ar" aria-hidden="true">→</span></a>
       <a href="https://tools.specul.com/"><span><span data-zh>工具</span><span data-en>Tools</span></span><span class="ar" aria-hidden="true">→</span></a>
       <a href="https://models.specul.com/"><span><span data-zh>模型</span><span data-en>Models</span></span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="https://demos.specul.com/" aria-current="page"><span><span data-zh>作品库</span><span data-en>Demos</span></span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="https://demos.specul.com/" aria-current="page"><span><span data-zh>作品演示</span><span data-en>Playground</span></span><span class="ar" aria-hidden="true">→</span></a>
       <a href="https://hardware.specul.com/" class="nav-group-start"><span><span data-zh>硬件算力</span><span data-en>Compute</span></span><span class="ar" aria-hidden="true">→</span></a>
       <a href="https://papers.specul.com/"><span><span data-zh>AI 论文</span><span data-en>AI Papers</span></span><span class="ar" aria-hidden="true">→</span></a>
       <a href="https://chain.specul.com/"><span><span data-zh>链</span><span data-en>Chain</span></span><span class="ar" aria-hidden="true">→</span></a>
@@ -90,16 +90,27 @@
     </div>
   </aside>
   <main id="main">
-<div class="container demos-page">
-  <h1><span data-zh>模型发布轨</span><span data-en>Model-release track</span></h1>
-  <p><span data-zh>只收官方 model card、Hugging Face Spaces 或仓库 releases 里点名的演示；挂官方发布日与本站核验日。新模型发布触发一轮收录，季度复核存活。</span><span data-en>Only demos named by an official model card, Hugging Face Space or repository release; each carries the official release date and our check date. A new model release triggers an intake round; liveness is re-checked quarterly.</span></p>
-  <ul class="dm-rel">
-    <li><b>ACE-Step 1.5 XL（release v0.1.6）</b> · <span data-zh>官方发布</span><span data-en>official release</span> 2026-04-03 · <a href="https://github.com/ace-step/ACE-Step-1.5/releases/tag/v0.1.6"><span data-zh>发布来源</span><span data-en>release source</span></a> → <a href="https://ace-step-ace-step-v1-5.hf.space/">ACE-Step v1.5 音乐生成演示</a>（<span data-zh>核验</span><span data-en>checked</span> 2026-11-07）</li>
-    <li><b>CogVideoX 5B（CogVideoX-1.0）</b> · <span data-zh>官方发布</span><span data-en>official release</span> 2024-11-08 · <a href="https://github.com/zai-org/CogVideo/releases/tag/v1.0"><span data-zh>发布来源</span><span data-en>release source</span></a> → <a href="https://zai-org-cogvideox-5b-space.hf.space/">CogVideoX-5B 文生视频官方演示</a>（<span data-zh>核验</span><span data-en>checked</span> 2026-11-07）</li>
-    <li><b>IndexTTS 2.5</b> · <span data-zh>官方发布</span><span data-en>official release</span> 2026-08-13 · <a href="https://github.com/index-tts/index-tts/releases/tag/v2.5.0"><span data-zh>发布来源</span><span data-en>release source</span></a> → <a href="https://indexteam-indextts-2-5-demo.hf.space/">IndexTTS-2.5 官方语音合成演示</a>（<span data-zh>核验</span><span data-en>checked</span> 2026-11-07）</li>
-    <li><b>Open-Sora v1.2.0</b> · <span data-zh>官方发布</span><span data-en>official release</span> 2024-06-18 · <a href="https://github.com/hpcaitech/Open-Sora/releases/tag/v1.2.0"><span data-zh>发布来源</span><span data-en>release source</span></a> → <a href="https://hpcai-tech-open-sora.hf.space/">Open-Sora v1.2 视频生成官方演示</a>（<span data-zh>核验</span><span data-en>checked</span> 2026-11-07）</li>
-  </ul>
+<div class="container demos-page dm-play">
+  <p class="kicker"><a href="index.html"><span data-zh>← 返回作品演示</span><span data-en>← Back to Playground</span></a> <span class="dm-sep">/</span> <span><span data-zh>外部运行</span><span data-en>external run</span></span></p>
+  <div class="dm-play-head"><div><h1 id="dm-play-title"><span data-zh>运行演示</span><span data-en>Run a piece</span></h1><p id="dm-play-sub" class="dm-lead"><span data-zh>正在载入作品信息…</span><span data-en>Loading piece information…</span></p></div><div class="dm-play-actions"><a id="dm-open" class="dm-btn" href="#" rel="noopener"><span data-zh>全屏打开原页</span><span data-en>Open original</span> &nearr;</a><button id="dm-random" class="dm-btn dm-btn-ghost" type="button"><span data-zh>随便看一个</span><span data-en>Random piece</span></button></div></div>
+  <div class="dm-player"><iframe id="dm-frame" title="Run the piece" sandbox="allow-scripts" referrerpolicy="no-referrer" loading="eager"></iframe></div>
+  <div class="dm-play-info">
+    <div><h2><span data-zh>这是什么</span><span data-en>What this is</span></h2><p id="dm-desc"></p><div id="dm-tags" class="dm-tags"></div></div>
+    <div><h2><span data-zh>来源与权利</span><span data-en>Source & rights</span></h2><p id="dm-licence" class="t-sm"></p><ul class="dm-links"><li><a id="dm-source" href="#" rel="noopener"><span data-zh>原始 HTML</span><span data-en>Original HTML</span> &nearr;</a></li><li><a id="dm-prompt" href="#" rel="noopener"><span data-zh>原始 prompt</span><span data-en>Original prompt</span> &nearr;</a></li><li><a id="dm-repo" href="#" rel="noopener"><span data-zh>原仓库</span><span data-en>Source repository</span> &nearr;</a></li></ul></div>
+  </div>
+  <p class="dm-note-line"><span data-zh>iframe 只允许 allow-scripts，不允许 same-origin、顶层跳转或读取本站 Cookie。页面若空白，通常是原作者页面禁止嵌入，请用“全屏打开原页”。</span><span data-en>The iframe allows only allow-scripts: no same-origin, no top navigation, no access to this site’s cookies. If the page is blank, the original may block embedding; use “Open original”.</span></p>
 </div>
+<script>(function(){
+var qs=new URLSearchParams(location.search);var id=qs.get('id');
+fetch('demos-data.json').then(function(r){if(!r.ok)throw new Error('data');return r.json();}).then(function(data){
+var map={};data.forEach(function(x){map[x.id]=x;});var e=map[id]||data[Math.floor(Math.random()*data.length)];
+document.getElementById('dm-frame').src=e.demoUrl;document.getElementById('dm-play-title').textContent=e.title.zh;document.getElementById('dm-play-sub').textContent=e.title.en+' · '+e.model.name;document.title=e.title.zh+' · 运行演示 · Specul';
+document.getElementById('dm-open').href=e.demoUrl;document.getElementById('dm-source').href=e.sourceUrl;document.getElementById('dm-prompt').href=e.promptUrl;document.getElementById('dm-repo').href=e.repoUrl;
+document.getElementById('dm-desc').textContent=e.notes.zh;document.getElementById('dm-licence').textContent='许可：仓库未声明 LICENSE；页面仅在原始发布页运行，本站不复制文件。';
+document.getElementById('dm-tags').innerHTML=(e.tags||[]).map(function(t){return '<span class="dm-tag">'+t+'</span>';}).join('');
+document.getElementById('dm-random').onclick=function(){var n=data[Math.floor(Math.random()*data.length)];location.href='play.html?id='+encodeURIComponent(n.id);};
+}).catch(function(){document.getElementById('dm-play-sub').textContent='载入失败：请通过本地静态服务器打开本页。';});
+})();</script>
   </main>
   <footer class="site-footer">
     <div class="container foot-row">
@@ -112,7 +123,7 @@
           <a href="https://learn.specul.com/"><span data-zh>学 AI</span><span data-en>Learn</span></a>
           <a href="https://tools.specul.com/"><span data-zh>工具</span><span data-en>Tools</span></a>
           <a href="https://models.specul.com/"><span data-zh>模型</span><span data-en>Models</span></a>
-          <a href="https://demos.specul.com/"><span data-zh>作品库</span><span data-en>Demos</span></a>
+          <a href="https://demos.specul.com/"><span data-zh>作品演示</span><span data-en>Playground</span></a>
           <a href="https://hardware.specul.com/"><span data-zh>硬件算力</span><span data-en>Compute</span></a>
           <a href="https://papers.specul.com/"><span data-zh>AI 论文</span><span data-en>AI Papers</span></a>
           <a href="https://chain.specul.com/"><span data-zh>链</span><span data-en>Chain</span></a>
