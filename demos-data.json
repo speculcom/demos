@@ -7591,7 +7591,7 @@
     "promptUrl": "https://x.com/BlendiByl/status/2120341251178594532",
     "sourceUrl": "https://patch.gg/blendi/oil-paint",
     "demoUrl": "https://patch.gg/blendi/oil-paint",
-    "thumbUrl": "/thumbs/fable-124.gif",
+    "thumbUrl": "thumbs/fable-124.gif",
     "repoUrl": "https://github.com/fengyiqicoder/awesome-fable-5.2",
     "model": {
       "name": "Claude Fable 5.2",
@@ -7648,7 +7648,7 @@
     "promptUrl": "https://x.com/mattshumer_/status/2120282133503820150",
     "sourceUrl": "https://nyc.somethingbig.ai/",
     "demoUrl": "https://nyc.somethingbig.ai/",
-    "thumbUrl": "/thumbs/fable-125.gif",
+    "thumbUrl": "thumbs/fable-125.gif",
     "repoUrl": "https://github.com/fengyiqicoder/awesome-fable-5.2",
     "model": {
       "name": "Claude Fable 5.2",
@@ -7705,7 +7705,7 @@
     "promptUrl": "https://x.com/anabology/status/2120010995309457643",
     "sourceUrl": "https://claudia.gallery",
     "demoUrl": "https://claudia.gallery",
-    "thumbUrl": "/thumbs/fable-038.gif",
+    "thumbUrl": "thumbs/fable-038.gif",
     "repoUrl": "https://github.com/fengyiqicoder/awesome-fable-5.2",
     "model": {
       "name": "Claude Fable 5.2",
@@ -7762,7 +7762,7 @@
     "promptUrl": "https://x.com/__morse/status/2122013410309153042",
     "sourceUrl": "https://github.com/remorses/castle-valley",
     "demoUrl": "https://omw-game.kimaki.dev",
-    "thumbUrl": "/thumbs/fable-308.gif",
+    "thumbUrl": "thumbs/fable-308.gif",
     "repoUrl": "https://github.com/remorses/castle-valley",
     "model": {
       "name": "Claude Fable 5.2",
@@ -7819,7 +7819,7 @@
     "promptUrl": "https://x.com/kevin_t_ngo/status/2119868968307695818",
     "sourceUrl": "https://what-the-water-keeps.vercel.app/",
     "demoUrl": "https://what-the-water-keeps.vercel.app/",
-    "thumbUrl": "/thumbs/fable-008.gif",
+    "thumbUrl": "thumbs/fable-008.gif",
     "repoUrl": "https://github.com/fengyiqicoder/awesome-fable-5.2",
     "model": {
       "name": "Claude Fable 5.2",
@@ -7876,7 +7876,7 @@
     "promptUrl": "https://x.com/chetaslua/status/2121176151234330707",
     "sourceUrl": "https://github.com/ChetasLua/crimson-loong",
     "demoUrl": "https://chetaslua.github.io/crimson-loong/",
-    "thumbUrl": "/thumbs/fable-246.gif",
+    "thumbUrl": "thumbs/fable-246.gif",
     "repoUrl": "https://github.com/ChetasLua/crimson-loong",
     "model": {
       "name": "Claude Fable 5.2",
@@ -7933,7 +7933,7 @@
     "promptUrl": "https://x.com/emollick/status/2119918307457577163",
     "sourceUrl": "https://github.com/emollick/ai-portals",
     "demoUrl": "https://portals-endless-worlds.netlify.app/",
-    "thumbUrl": "/thumbs/fable-006.gif",
+    "thumbUrl": "thumbs/fable-006.gif",
     "repoUrl": "https://github.com/emollick/ai-portals",
     "model": {
       "name": "Claude Fable 5.2",
@@ -7990,7 +7990,7 @@
     "promptUrl": "https://x.com/crtvTeknologist/status/2119894073024606617",
     "sourceUrl": "https://github.com/finktheartist/pixel-worlds",
     "demoUrl": "https://pixel-worlds.vercel.app/keep/",
-    "thumbUrl": "/thumbs/fable-144.gif",
+    "thumbUrl": "thumbs/fable-144.gif",
     "repoUrl": "https://github.com/finktheartist/pixel-worlds",
     "model": {
       "name": "Claude Fable 5.2",
@@ -8034,8 +8034,8 @@
       "en": "Papertrails: an endless pop-up paper world"
     },
     "notes": {
-      "zh": "小纸人往前走，树、房子、山丘像翻立体书一样从地面立起来，沙漠、雪地、森林和昼夜无限延伸；Fable 5.2 和 Opus 5.5 配 three.js 做的",
-      "en": "A paper figure walks on while trees, houses and hills fold up from the ground like a pop-up book, through desert, snow, forest and day and night. Built with Fable 5.2, Opus 5.5 and three.js."
+      "zh": "小纸人往前走，树、房子、山丘像翻立体书一样从地面立起来，沙漠、雪地、森林和昼夜无限延伸；Claude Fable 5.2 和 Claude Opus 5.5 配 three.js 做的",
+      "en": "A paper figure walks on while trees, houses and hills fold up from the ground like a pop-up book, through desert, snow, forest and day and night. Built with Claude Fable 5.2, Claude Opus 5.5 and three.js."
     },
     "category": "互动体验",
     "tags": [
@@ -8047,7 +8047,7 @@
     "promptUrl": "https://x.com/xikhar/status/2122682962647122403",
     "sourceUrl": "https://github.com/xikhar/papertrails",
     "demoUrl": "https://xikhar.github.io/papertrails/",
-    "thumbUrl": "/thumbs/fable-330.gif",
+    "thumbUrl": "thumbs/fable-330.gif",
     "repoUrl": "https://github.com/xikhar/papertrails",
     "model": {
       "name": "Claude Fable 5.2",
@@ -8104,7 +8104,7 @@
     "promptUrl": "https://x.com/HashemGhaili/status/2120202746121085321",
     "sourceUrl": "https://github.com/MasterOfVFX2070/xray-mirror",
     "demoUrl": "https://masterofvfx2070.github.io/xray-mirror/",
-    "thumbUrl": "/thumbs/fable-205.gif",
+    "thumbUrl": "thumbs/fable-205.gif",
     "repoUrl": "https://github.com/MasterOfVFX2070/xray-mirror",
     "model": {
       "name": "Claude Fable 5.2",
@@ -8144,8 +8144,8 @@
     "num": "001",
     "slug": "code-animation-opus-5-5-b6-light-speed",
     "title": {
-      "zh": "光速穿梭 · 爆炸 · 重聚（Opus 5.5）",
-      "en": "Light-speed Tunnel, Explosion, Reassembly (Opus 5.5)"
+      "zh": "光速穿梭 · 爆炸 · 重聚（Claude Opus 5.5）",
+      "en": "Light-speed Tunnel, Explosion, Reassembly (Claude Opus 5.5)"
     },
     "notes": {
       "zh": "同一份完整提示词生成的 12 秒光速隧道：穿梭、爆炸、重聚。文件名中的模型标注来自原素材包，不是受控评测。",
@@ -8161,11 +8161,11 @@
     "promptHash": "cb8fdb387299dd1797936f75175810ff6f2cba64",
     "promptUrl": "https://raw.githubusercontent.com/XiaoyeCodes/code-animation-prompts/main/skills/code-animation-prompts/assets/library/%E7%A4%BA%E4%BE%8B/B6_%E5%85%89%E9%80%9F%E7%A9%BF%E6%A2%AD%C2%B7%E7%88%86%E7%82%B8%C2%B7%E9%87%8D%E8%81%9A_%E5%90%8C%E4%B8%80%E4%BB%BD%E6%8F%90%E7%A4%BA%E8%AF%8D/%E6%8F%90%E7%A4%BA%E8%AF%8D.md",
     "sourceUrl": "https://raw.githubusercontent.com/XiaoyeCodes/code-animation-prompts/main/skills/code-animation-prompts/assets/library/%E7%A4%BA%E4%BE%8B/B6_%E5%85%89%E9%80%9F%E7%A9%BF%E6%A2%AD%C2%B7%E7%88%86%E7%82%B8%C2%B7%E9%87%8D%E8%81%9A_%E5%90%8C%E4%B8%80%E4%BB%BD%E6%8F%90%E7%A4%BA%E8%AF%8D/Opus5.5_High.html",
-    "demoUrl": "/embeds/code-animation/b6-opus.html",
-    "thumbUrl": "/thumbs/code-animation-b6-opus.png",
+    "demoUrl": "embeds/code-animation/b6-opus.html",
+    "thumbUrl": "thumbs/code-animation-b6-opus.png",
     "repoUrl": "https://github.com/XiaoyeCodes/code-animation-prompts",
     "model": {
-      "name": "Opus 5.5",
+      "name": "Claude Opus 5.5",
       "version": "B6 · High",
       "releaseDate": "",
       "releaseUrl": "https://github.com/XiaoyeCodes/code-animation-prompts"
@@ -8219,8 +8219,8 @@
     "promptHash": "cb8fdb387299dd1797936f75175810ff6f2cba64",
     "promptUrl": "https://raw.githubusercontent.com/XiaoyeCodes/code-animation-prompts/main/skills/code-animation-prompts/assets/library/%E7%A4%BA%E4%BE%8B/B6_%E5%85%89%E9%80%9F%E7%A9%BF%E6%A2%AD%C2%B7%E7%88%86%E7%82%B8%C2%B7%E9%87%8D%E8%81%9A_%E5%90%8C%E4%B8%80%E4%BB%BD%E6%8F%90%E7%A4%BA%E8%AF%8D/%E6%8F%90%E7%A4%BA%E8%AF%8D.md",
     "sourceUrl": "https://raw.githubusercontent.com/XiaoyeCodes/code-animation-prompts/main/skills/code-animation-prompts/assets/library/%E7%A4%BA%E4%BE%8B/B6_%E5%85%89%E9%80%9F%E7%A9%BF%E6%A2%AD%C2%B7%E7%88%86%E7%82%B8%C2%B7%E9%87%8D%E8%81%9A_%E5%90%8C%E4%B8%80%E4%BB%BD%E6%8F%90%E7%A4%BA%E8%AF%8D/DeepSeek-V4.1-Flash_High.html",
-    "demoUrl": "/embeds/code-animation/b6-deepseek.html",
-    "thumbUrl": "/thumbs/code-animation-b6-deepseek.png",
+    "demoUrl": "embeds/code-animation/b6-deepseek.html",
+    "thumbUrl": "thumbs/code-animation-b6-deepseek.png",
     "repoUrl": "https://github.com/XiaoyeCodes/code-animation-prompts",
     "model": {
       "name": "DeepSeek V4.1-Flash",
@@ -8277,8 +8277,8 @@
     "promptHash": "0b123740db5d529cc183ad01e7817d329c541a9b",
     "promptUrl": "https://raw.githubusercontent.com/XiaoyeCodes/code-animation-prompts/main/skills/code-animation-prompts/assets/library/%E7%A4%BA%E4%BE%8B/X7_%E8%8B%B1%E9%9B%84%E6%BC%AB%E7%94%BB_%E5%8F%AA%E7%BB%99%E4%B8%80%E5%8F%A5%E8%AF%9D/%E6%8F%90%E7%A4%BA%E8%AF%8D.md",
     "sourceUrl": "https://raw.githubusercontent.com/XiaoyeCodes/code-animation-prompts/main/skills/code-animation-prompts/assets/library/%E7%A4%BA%E4%BE%8B/X7_%E8%8B%B1%E9%9B%84%E6%BC%AB%E7%94%BB_%E5%8F%AA%E7%BB%99%E4%B8%80%E5%8F%A5%E8%AF%9D/index.html",
-    "demoUrl": "/embeds/code-animation/x7-ink-and-thunder.html",
-    "thumbUrl": "/thumbs/code-animation-x7-ink-and-thunder.png",
+    "demoUrl": "embeds/code-animation/x7-ink-and-thunder.html",
+    "thumbUrl": "thumbs/code-animation-x7-ink-and-thunder.png",
     "repoUrl": "https://github.com/XiaoyeCodes/code-animation-prompts",
     "model": {
       "name": "DeepSeek V4.1-Flash",
