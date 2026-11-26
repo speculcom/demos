@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="robots" content="noindex" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="noindex" name="robots"/>
 <title>翻译与术语检查器 · Specul 提示词实验室</title>
 <style>
 :root{--bg:#0a0e13;--panel:#121821;--ink:#e8eef5;--muted:#8b98a8;--line:#243040;--green:#58d6a8;--gold:#e0b45a}
@@ -29,10 +29,10 @@ pre{white-space:pre-wrap;background:var(--panel);border:1px solid var(--line);bo
 <div class="brand"><a href="https://demos.specul.com/">Specul · 作品演示</a><a href="https://learn.specul.com/">学 AI →</a></div>
 <h1>翻译与术语检查器</h1>
 <p class="lead">按段落编号翻译，标出「直译别扭」和「意译可能偏离」的句子。</p>
-<div class="grid"><label class="field"><span>原文</span><textarea id="text" rows="7" placeholder="按段落编号粘贴。"></textarea></label>
-<label class="field"><span>目标语言与读者</span><textarea id="target" rows="3" placeholder="例如：英文，给企业客户"></textarea></label>
-<label class="field"><span>术语表</span><textarea id="glossary" rows="3" placeholder="品牌名、禁译词、固定译法。"></textarea></label>
-<label class="field"><span>语域</span><textarea id="register" rows="3" placeholder="例如：正式 / 口语 / 技术文档"></textarea></label></div>
+<div class="grid"><label class="field"><span>原文</span><textarea id="text" placeholder="按段落编号粘贴。" rows="7"></textarea></label>
+<label class="field"><span>目标语言与读者</span><textarea id="target" placeholder="例如：英文，给企业客户" rows="3"></textarea></label>
+<label class="field"><span>术语表</span><textarea id="glossary" placeholder="品牌名、禁译词、固定译法。" rows="3"></textarea></label>
+<label class="field"><span>语域</span><textarea id="register" placeholder="例如：正式 / 口语 / 技术文档" rows="3"></textarea></label></div>
 <div class="actions"><button onclick="build()">生成提示词</button><button class="ghost" onclick="copyOut()">复制</button><button class="ghost" onclick="demo()">填入示例</button></div>
 <pre id="out">点击「生成提示词」或先填入示例。</pre>
 <p class="hint">这是一个离线提示词生成器：不调用模型、不保存输入。生成后复制到任意 AI 对话里使用。</p>

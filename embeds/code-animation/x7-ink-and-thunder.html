@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex" />
-<title>INK &amp; THUNDER &mdash; a comic book come to life</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="noindex" name="robots"/>
+<title>INK &amp; THUNDER — a comic book come to life</title>
 <!--
   Hero silhouette derived from the public-domain (CC0) clip art
   "Super hero flying silhouette" by laobc, openclipart.org/detail/66385,
@@ -275,121 +275,107 @@
 </head>
 <body>
 <div id="stage">
-  <div id="backdrop"></div>
-  <div id="underPage"><div class="ghost" id="underGhost"></div></div>
-  <div id="flipStack"></div>
-
-  <div id="cam">
-    <div id="page">
-      <div class="stain"></div>
-      <div class="crease"></div>
-      <div class="crop tl"></div>
-      <div class="crop br"></div>
-
-      <div id="masthead">
-        <div class="mh-slab">INK &amp; THUNDER</div>
-        <div class="mh-right">
-          <span class="mh-no">NO. 1</span>
-          <span class="mh-meta">25&cent; &middot; AUGUST &middot; INK PRESS</span>
-        </div>
-      </div>
-      <div class="mh-rule"></div>
-
-      <section class="panel" id="panelA">
-        <div id="rays"></div>
-        <div class="halftone h2 mask"></div>
-        <div class="halftone mask"></div>
-
-        <svg class="city" viewBox="0 0 1432 220" preserveAspectRatio="none" aria-hidden="true">
-          <path class="far" d="M0,220 L0,150 L70,150 L70,120 L120,120 L120,150 L190,150 L190,96 L240,96 L240,140 L300,140 L300,175 L360,175 L360,118 L392,118 L392,175 L450,175 L450,140 L520,140 L520,96 L560,96 L560,140 L620,140 L620,170 L700,170 L700,132 L760,132 L760,170 L830,170 L830,140 L900,140 L900,108 L940,108 L940,140 L1000,140 L1000,168 L1080,168 L1080,134 L1140,134 L1140,168 L1210,168 L1210,120 L1250,120 L1250,168 L1320,168 L1320,146 L1432,146 L1432,220 Z"/>
-          <path class="near" d="M0,220 L0,168 L58,168 L58,132 L112,132 L112,168 L158,168 L158,96 L196,96 L196,60 L206,60 L206,96 L232,96 L232,168 L288,168 L288,140 L352,140 L352,178 L404,178 L404,110 L444,110 L444,88 L470,88 L470,110 L510,110 L510,178 L566,178 L566,152 L620,152 L620,196 L676,196 L676,126 L706,126 L706,150 L760,150 L760,88 L790,88 L790,150 L840,150 L840,170 L900,170 L900,120 L950,120 L950,150 L1010,150 L1010,100 L1040,100 L1040,150 L1090,150 L1090,180 L1140,180 L1140,138 L1190,138 L1190,180 L1240,180 L1240,112 L1280,112 L1310,112 L1310,180 L1370,180 L1370,150 L1432,150 L1432,220 Z"/>
-          <path class="line" d="M201,60 L201,18 M462,88 L462,50 M948,120 L948,80"/>
-        </svg>
-        <div class="haze"></div>
-        <div class="halftone city"></div>
-        <div class="beam b1"></div>
-        <div class="beam b2"></div>
-
-        <div id="heroG2" class="ghostHero"></div>
-        <div id="heroG1" class="ghostHero"></div>
-        <div id="hero" class="heroBox"></div>
-
-        <div class="cap" id="cap1"><span class="cap-txt"></span></div>
-        <div class="balloon" id="bal1">NOT TODAY, DOOM-BOT!</div>
-        <div class="balloon" id="bal2">SEE YOU NEXT ISSUE!</div>
-        <div class="cap" id="cap2"><span class="cap-txt"></span></div>
-      </section>
-
-      <section class="panel" id="panelB">
-        <div class="halftone h2"></div>
-        <div class="sun"></div>
-        <div class="sun-dots"></div>
-        <svg class="trail" viewBox="0 0 280 70" aria-hidden="true"><path d="M4,58 C70,12 170,4 276,26"/></svg>
-        <div class="minihero" id="minihero"></div>
-        <svg class="roof" viewBox="0 0 1432 190" preserveAspectRatio="none" aria-hidden="true">
-          <path d="M0,190 L0,120 L210,120 L210,96 L232,96 L232,120 L520,120 L520,132 L760,132 L760,84 L790,84 L790,132 L1000,132 L1000,112 L1250,112 L1250,126 L1432,126 L1432,190 Z"/>
-          <path d="M96,120 L96,96 L120,96 L120,120 Z"/>
-          <path d="M1180,112 L1180,66 L1216,66 L1216,112 Z"/>
-          <path d="M1340,126 L1340,88 L1372,88 L1372,126 Z"/>
-        </svg>
-        <svg class="roof" style="height:40%;z-index:4" viewBox="0 0 1432 90" preserveAspectRatio="none" aria-hidden="true">
-          <path d="M0,90 L0,60 L180,60 L180,38 L330,38 L330,60 L700,60 L700,44 L900,44 L900,60 L1180,60 L1180,30 L1220,30 L1220,60 L1432,60 L1432,90 Z"/>
-        </svg>
-        <div class="cap" id="capB"><span class="cap-txt"></span></div>
-      </section>
-
-      <div id="banner">
-        <span class="star">&#9733;</span>
-        <span class="next">NEXT ISSUE:</span>
-        <span class="title">ENTER &mdash; THE DOOM-BOT!</span>
-        <span class="price">STILL 25&cent;</span>
-      </div>
-
-      <div id="burst">
-        <div class="bghost" id="bghost1"></div>
-        <div class="bghost" id="bghost2"></div>
-        <svg viewBox="0 0 400 260" aria-hidden="true">
-          <path class="star-ink" fill="#14110e"/>
-          <path class="star-fill" fill="#ffc81f"/>
-        </svg>
-        <div class="btext" id="burstText"></div>
-      </div>
-
-      <div id="ring1" class="ring"></div>
-      <div id="ring2" class="ring"></div>
-      <div id="sparks"></div>
-      <div id="shards"></div>
-
-      <div id="ghostA" class="ghostHero"></div>
-      <div id="ghostB" class="ghostHero"></div>
-      <div id="heroX" class="heroBox"></div>
-    </div>
-  </div>
-
-  <div id="cover">
-    <div id="cover-dim"></div>
-    <div id="coverGlow"></div>    <div id="coverDust"></div>
-    <div id="coverSlabWrap">
-      <div id="coverSlab">
-        <div class="grainline"></div>
-        <div class="inner-keyline"></div>
-        <svg class="cover-title" viewBox="0 0 1160 210">
-          <text class="ct-shadow" x="588" y="166">INK &amp; THUNDER</text>
-          <text class="ct-main" x="580" y="158">INK &amp; THUNDER</text>
-        </svg>
-        <div class="cover-sub">A superhero comic come to life</div>
-        <div class="cover-foot">INK PRESS &middot; 4 ISSUES A YEAR &middot; PRINTED IN THE USA</div>
-      </div>
-    </div>
-    <div id="coverBadge">25&cent;<span class="small">U.S. ONLY</span></div>
-  </div>
-
-  <div id="flash"></div>
-  <div id="landPage"><div class="ghost" id="landGhost"></div><div class="edge"></div></div>
-  <canvas id="grain" width="1600" height="900"></canvas>
-  <div id="vignette"></div>
+<div id="backdrop"></div>
+<div id="underPage"><div class="ghost" id="underGhost"></div></div>
+<div id="flipStack"></div>
+<div id="cam">
+<div id="page">
+<div class="stain"></div>
+<div class="crease"></div>
+<div class="crop tl"></div>
+<div class="crop br"></div>
+<div id="masthead">
+<div class="mh-slab">INK &amp; THUNDER</div>
+<div class="mh-right">
+<span class="mh-no">NO. 1</span>
+<span class="mh-meta">25¢ · AUGUST · INK PRESS</span>
 </div>
-
+</div>
+<div class="mh-rule"></div>
+<section class="panel" id="panelA">
+<div id="rays"></div>
+<div class="halftone h2 mask"></div>
+<div class="halftone mask"></div>
+<svg aria-hidden="true" class="city" preserveaspectratio="none" viewbox="0 0 1432 220">
+<path class="far" d="M0,220 L0,150 L70,150 L70,120 L120,120 L120,150 L190,150 L190,96 L240,96 L240,140 L300,140 L300,175 L360,175 L360,118 L392,118 L392,175 L450,175 L450,140 L520,140 L520,96 L560,96 L560,140 L620,140 L620,170 L700,170 L700,132 L760,132 L760,170 L830,170 L830,140 L900,140 L900,108 L940,108 L940,140 L1000,140 L1000,168 L1080,168 L1080,134 L1140,134 L1140,168 L1210,168 L1210,120 L1250,120 L1250,168 L1320,168 L1320,146 L1432,146 L1432,220 Z"></path>
+<path class="near" d="M0,220 L0,168 L58,168 L58,132 L112,132 L112,168 L158,168 L158,96 L196,96 L196,60 L206,60 L206,96 L232,96 L232,168 L288,168 L288,140 L352,140 L352,178 L404,178 L404,110 L444,110 L444,88 L470,88 L470,110 L510,110 L510,178 L566,178 L566,152 L620,152 L620,196 L676,196 L676,126 L706,126 L706,150 L760,150 L760,88 L790,88 L790,150 L840,150 L840,170 L900,170 L900,120 L950,120 L950,150 L1010,150 L1010,100 L1040,100 L1040,150 L1090,150 L1090,180 L1140,180 L1140,138 L1190,138 L1190,180 L1240,180 L1240,112 L1280,112 L1310,112 L1310,180 L1370,180 L1370,150 L1432,150 L1432,220 Z"></path>
+<path class="line" d="M201,60 L201,18 M462,88 L462,50 M948,120 L948,80"></path>
+</svg>
+<div class="haze"></div>
+<div class="halftone city"></div>
+<div class="beam b1"></div>
+<div class="beam b2"></div>
+<div class="ghostHero" id="heroG2"></div>
+<div class="ghostHero" id="heroG1"></div>
+<div class="heroBox" id="hero"></div>
+<div class="cap" id="cap1"><span class="cap-txt"></span></div>
+<div class="balloon" id="bal1">NOT TODAY, DOOM-BOT!</div>
+<div class="balloon" id="bal2">SEE YOU NEXT ISSUE!</div>
+<div class="cap" id="cap2"><span class="cap-txt"></span></div>
+</section>
+<section class="panel" id="panelB">
+<div class="halftone h2"></div>
+<div class="sun"></div>
+<div class="sun-dots"></div>
+<svg aria-hidden="true" class="trail" viewbox="0 0 280 70"><path d="M4,58 C70,12 170,4 276,26"></path></svg>
+<div class="minihero" id="minihero"></div>
+<svg aria-hidden="true" class="roof" preserveaspectratio="none" viewbox="0 0 1432 190">
+<path d="M0,190 L0,120 L210,120 L210,96 L232,96 L232,120 L520,120 L520,132 L760,132 L760,84 L790,84 L790,132 L1000,132 L1000,112 L1250,112 L1250,126 L1432,126 L1432,190 Z"></path>
+<path d="M96,120 L96,96 L120,96 L120,120 Z"></path>
+<path d="M1180,112 L1180,66 L1216,66 L1216,112 Z"></path>
+<path d="M1340,126 L1340,88 L1372,88 L1372,126 Z"></path>
+</svg>
+<svg aria-hidden="true" class="roof" preserveaspectratio="none" style="height:40%;z-index:4" viewbox="0 0 1432 90">
+<path d="M0,90 L0,60 L180,60 L180,38 L330,38 L330,60 L700,60 L700,44 L900,44 L900,60 L1180,60 L1180,30 L1220,30 L1220,60 L1432,60 L1432,90 Z"></path>
+</svg>
+<div class="cap" id="capB"><span class="cap-txt"></span></div>
+</section>
+<div id="banner">
+<span class="star">★</span>
+<span class="next">NEXT ISSUE:</span>
+<span class="title">ENTER — THE DOOM-BOT!</span>
+<span class="price">STILL 25¢</span>
+</div>
+<div id="burst">
+<div class="bghost" id="bghost1"></div>
+<div class="bghost" id="bghost2"></div>
+<svg aria-hidden="true" viewbox="0 0 400 260">
+<path class="star-ink" fill="#14110e"></path>
+<path class="star-fill" fill="#ffc81f"></path>
+</svg>
+<div class="btext" id="burstText"></div>
+</div>
+<div class="ring" id="ring1"></div>
+<div class="ring" id="ring2"></div>
+<div id="sparks"></div>
+<div id="shards"></div>
+<div class="ghostHero" id="ghostA"></div>
+<div class="ghostHero" id="ghostB"></div>
+<div class="heroBox" id="heroX"></div>
+</div>
+</div>
+<div id="cover">
+<div id="cover-dim"></div>
+<div id="coverGlow"></div> <div id="coverDust"></div>
+<div id="coverSlabWrap">
+<div id="coverSlab">
+<div class="grainline"></div>
+<div class="inner-keyline"></div>
+<svg class="cover-title" viewbox="0 0 1160 210">
+<text class="ct-shadow" x="588" y="166">INK &amp; THUNDER</text>
+<text class="ct-main" x="580" y="158">INK &amp; THUNDER</text>
+</svg>
+<div class="cover-sub">A superhero comic come to life</div>
+<div class="cover-foot">INK PRESS · 4 ISSUES A YEAR · PRINTED IN THE USA</div>
+</div>
+</div>
+<div id="coverBadge">25¢<span class="small">U.S. ONLY</span></div>
+</div>
+<div id="flash"></div>
+<div id="landPage"><div class="ghost" id="landGhost"></div><div class="edge"></div></div>
+<canvas height="900" id="grain" width="1600"></canvas>
+<div id="vignette"></div>
+</div>
 <script>
 (function(){
   "use strict";

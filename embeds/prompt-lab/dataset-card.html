@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="robots" content="noindex" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="noindex" name="robots"/>
 <title>数据集卡生成器 · Specul 提示词实验室</title>
 <style>
 :root{--bg:#0a0e13;--panel:#121821;--ink:#e8eef5;--muted:#8b98a8;--line:#243040;--green:#58d6a8;--gold:#e0b45a}
@@ -29,10 +29,10 @@ pre{white-space:pre-wrap;background:var(--panel);border:1px solid var(--line);bo
 <div class="brand"><a href="https://demos.specul.com/">Specul · 作品演示</a><a href="https://learn.specul.com/">学 AI →</a></div>
 <h1>数据集卡生成器</h1>
 <p class="lead">补来源、授权、构造、偏差与用途边界五节，每节至少一条出处。</p>
-<div class="grid"><label class="field"><span>数据集名称</span><textarea id="name" rows="3" placeholder="例如：客服对话 10k"></textarea></label>
-<label class="field"><span>来源与采集</span><textarea id="source" rows="3" placeholder="原始 URL、时间范围、采集方式。"></textarea></label>
-<label class="field"><span>许可证</span><textarea id="license" rows="3" placeholder="例如：CC BY 4.0；商用限制。"></textarea></label>
-<label class="field"><span>已知问题</span><textarea id="known" rows="3" placeholder="例如：方言覆盖少、含个人数据。"></textarea></label></div>
+<div class="grid"><label class="field"><span>数据集名称</span><textarea id="name" placeholder="例如：客服对话 10k" rows="3"></textarea></label>
+<label class="field"><span>来源与采集</span><textarea id="source" placeholder="原始 URL、时间范围、采集方式。" rows="3"></textarea></label>
+<label class="field"><span>许可证</span><textarea id="license" placeholder="例如：CC BY 4.0；商用限制。" rows="3"></textarea></label>
+<label class="field"><span>已知问题</span><textarea id="known" placeholder="例如：方言覆盖少、含个人数据。" rows="3"></textarea></label></div>
 <div class="actions"><button onclick="build()">生成提示词</button><button class="ghost" onclick="copyOut()">复制</button><button class="ghost" onclick="demo()">填入示例</button></div>
 <pre id="out">点击「生成提示词」或先填入示例。</pre>
 <p class="hint">这是一个离线提示词生成器：不调用模型、不保存输入。生成后复制到任意 AI 对话里使用。</p>

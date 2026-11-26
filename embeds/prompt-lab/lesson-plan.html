@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="robots" content="noindex" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="noindex" name="robots"/>
 <title>备课四段设计器 · Specul 提示词实验室</title>
 <style>
 :root{--bg:#0a0e13;--panel:#121821;--ink:#e8eef5;--muted:#8b98a8;--line:#243040;--green:#58d6a8;--gold:#e0b45a}
@@ -29,10 +29,10 @@ pre{white-space:pre-wrap;background:var(--panel);border:1px solid var(--line);bo
 <div class="brand"><a href="https://demos.specul.com/">Specul · 作品演示</a><a href="https://learn.specul.com/">学 AI →</a></div>
 <h1>备课四段设计器</h1>
 <p class="lead">按「导入—讲解—练习—总结」四段设计，标出 AI 参与点与教师复核点。</p>
-<div class="grid"><label class="field"><span>知识点</span><textarea id="topic" rows="3" placeholder="例如：光合作用"></textarea></label>
-<label class="field"><span>学段</span><textarea id="grade" rows="3" placeholder="例如：初中二年级"></textarea></label>
-<label class="field"><span>学习目标</span><textarea id="objective" rows="3" placeholder="学生上完能做什么。"></textarea></label>
-<label class="field"><span>课时</span><textarea id="duration" rows="3" placeholder="例如：45 分钟"></textarea></label></div>
+<div class="grid"><label class="field"><span>知识点</span><textarea id="topic" placeholder="例如：光合作用" rows="3"></textarea></label>
+<label class="field"><span>学段</span><textarea id="grade" placeholder="例如：初中二年级" rows="3"></textarea></label>
+<label class="field"><span>学习目标</span><textarea id="objective" placeholder="学生上完能做什么。" rows="3"></textarea></label>
+<label class="field"><span>课时</span><textarea id="duration" placeholder="例如：45 分钟" rows="3"></textarea></label></div>
 <div class="actions"><button onclick="build()">生成提示词</button><button class="ghost" onclick="copyOut()">复制</button><button class="ghost" onclick="demo()">填入示例</button></div>
 <pre id="out">点击「生成提示词」或先填入示例。</pre>
 <p class="hint">这是一个离线提示词生成器：不调用模型、不保存输入。生成后复制到任意 AI 对话里使用。</p>

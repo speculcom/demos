@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html data-lang="en" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>The 2026 pieces: how each model approaches the brief |…</title>
+<meta content="375 pieces across 31 model groups, filtered by use and model. Play the ones that run here; the rest link back to the post. Each piece’s source is noted…" name="description"/>
+<link href="https://demos.specul.com/en/2026.html" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="Playground" property="og:site_name"/>
+<meta content="https://demos.specul.com/en/2026.html" property="og:url"/>
+<meta content="The 2026 pieces: how each model approaches the brief |…" property="og:title"/>
+<meta content="375 pieces across 31 model groups, filtered by use and model. Play the ones that run here; the rest link back to the post. Each piece’s source is noted…" property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="zh_CN" property="og:locale:alternate"/>
+<meta content="#16121f" name="theme-color"/>
+<link href="/assets/brand/dandelion-favicon-site.png" rel="icon" type="image/png"/>
+<link href="/assets/brand/dandelion-apple-touch-site.png" rel="apple-touch-icon"/>
+<script src="/brand.js"></script>
+<link href="/brand.css" rel="stylesheet"/>
+<link href="/site.css" rel="stylesheet"/>
+<style>
+.u26-hero{padding:24px 0 14px}
+.u26-kicker{margin:0 0 8px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--cyan);font-weight:650}
+.u26-h1{margin:0;max-width:20ch;font-size:clamp(30px,4.3vw,52px);line-height:1.1;letter-spacing:-.03em;color:var(--ink)}
+.u26-lede{margin:12px 0 0;max-width:70ch;font-size:15px;line-height:1.62;color:var(--ink-mid)}
+.u26-note{margin:12px 0 0;max-width:72ch;padding:10px 12px;border-left:2px solid var(--cyan);background:var(--brand-soft);font-size:13px;line-height:1.6;color:var(--ink-mid)}
+.u26-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.u26-chip{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border:1px solid var(--line);border-radius:999px;font-size:12px;color:var(--ink-mid);background:var(--bg-panel)}
+.u26-chip b{color:var(--cyan);font-variant-numeric:tabular-nums}
+.u26-section{padding:24px 0;border-top:1px solid var(--line)}
+.u26-h2{margin:0 0 6px;font-size:clamp(22px,2.8vw,32px);line-height:1.2;color:var(--ink)}
+.u26-sub{margin:0 0 12px;font-size:13px;line-height:1.6;color:var(--ink-faint);max-width:68ch}
+.u26-figure{margin:0 0 14px;padding:12px 12px 8px;border:1px solid var(--line);border-radius:14px;background:var(--bg-panel)}
+.u26-figure figcaption{margin-top:6px;font-size:11px;line-height:1.5;color:var(--ink-faint)}
+.u26-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:10px}
+.u26-card{grid-column:span 6;min-width:0;padding:14px 14px 12px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(180deg,var(--bg-panel),var(--bg-inset))}
+.u26-card.wide{grid-column:span 12}
+.u26-meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:6px}
+.u26-badge{display:inline-flex;align-items:center;padding:3px 8px;border-radius:6px;border:1px solid var(--brand-line);background:var(--brand-soft);color:var(--cyan);font-size:11px;font-variant-numeric:tabular-nums}
+.u26-tag{font-size:11px;color:var(--ink-faint)}
+.u26-card h2{margin:0 0 6px;font-size:17px;line-height:1.3;color:var(--ink)}
+.u26-card .u26-p{margin:0;font-size:13px;line-height:1.62;color:var(--ink-mid)}
+.u26-dl{display:grid;grid-template-columns:auto 1fr;gap:5px 10px;margin:10px 0 0;padding:8px 0 2px;border-top:1px dashed var(--line);font-size:12px;line-height:1.5}
+.u26-dl dt{color:var(--ink-faint)}
+.u26-dl dd{margin:0;color:var(--ink)}
+.u26-block{margin-top:9px;padding-top:7px;border-top:1px dashed var(--line)}
+.u26-block b{display:block;margin-bottom:3px;font-size:11px;letter-spacing:.04em;color:var(--cyan)}
+.u26-block p{margin:0;font-size:12px;line-height:1.6;color:var(--ink-mid)}
+.u26-boundary{border-left:2px solid var(--warn);padding-left:9px}
+.u26-src{margin:10px 0 0;font-size:11px;line-height:1.6;color:var(--ink-faint);overflow-wrap:anywhere}
+.u26-src a{color:var(--ink-mid);text-decoration:none;border-bottom:1px solid var(--line)}
+.u26-brief{display:grid;gap:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--bg-panel)}
+.u26-row{display:grid;grid-template-columns:82px 1fr auto;gap:10px;align-items:start;padding:10px 12px;border-bottom:1px solid var(--line)}
+.u26-row:last-child{border-bottom:0}
+.u26-row time{font-size:11px;color:var(--cyan);font-variant-numeric:tabular-nums;padding-top:2px}
+.u26-row b{display:block;font-size:14px;line-height:1.4;color:var(--ink)}
+.u26-row p{margin:3px 0 0;font-size:12px;line-height:1.55;color:var(--ink-mid)}
+.u26-row a{font-size:11px;color:var(--ink-faint);text-decoration:none;white-space:nowrap}
+.u26-two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.u26-two .u26-card{grid-column:auto}
+.u26-quote{margin:10px 0 0;padding:9px 10px;border-left:2px solid var(--brand-line);background:var(--bg-inset);font-size:12px;line-height:1.6;color:var(--ink-mid);overflow-wrap:anywhere}
+.u26-list{display:grid;gap:6px;margin:10px 0 0}
+.u26-list div{display:grid;grid-template-columns:26px 1fr;gap:8px;font-size:12px;line-height:1.55;color:var(--ink-mid)}
+.u26-list b{color:var(--cyan);font-variant-numeric:tabular-nums}
+.u26-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:2px 0 14px}
+.u26-lane{padding:12px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,var(--bg-panel),var(--bg-inset))}
+.u26-lane>b{display:block;font-size:12px;letter-spacing:.06em;color:var(--cyan)}
+.u26-lane>span{display:block;margin:3px 0 9px;font-size:11px;line-height:1.5;color:var(--ink-faint)}
+.u26-lane a{display:grid;grid-template-columns:48px 1fr;gap:8px;padding:6px 0;border-top:1px dashed var(--line);font-size:11px;line-height:1.5;color:var(--ink-mid)}
+.u26-lane a time{color:var(--ink-faint);font-variant-numeric:tabular-nums}
+.u26-lane a:hover{color:var(--ink)}
+.u26-chain{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:0 0 14px;counter-reset:step}
+.u26-chain div{position:relative;padding:11px 10px 10px;border:1px solid var(--line);border-radius:12px;background:var(--bg-panel)}
+.u26-chain div:not(:last-child)::after{content:"→";position:absolute;right:-11px;top:50%;transform:translateY(-50%);font-size:12px;color:var(--ink-faint)}
+.u26-chain b{display:block;font-size:11px;letter-spacing:.05em;color:var(--cyan)}
+.u26-chain span{display:block;margin-top:4px;font-size:13px;line-height:1.4;color:var(--ink)}
+.nf-grid{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:clamp(24px,5vw,56px);align-items:center}
+.nf-art{opacity:.95}
+.nf-art svg{display:block;width:100%;height:auto}
+@media(max-width:900px){.u26-card{grid-column:span 12}.u26-two{grid-template-columns:1fr}.u26-row{grid-template-columns:70px 1fr}.u26-row a{display:none}.u26-map{grid-template-columns:1fr}.u26-chain{grid-template-columns:1fr 1fr}.u26-chain div:nth-child(2)::after{content:none}.nf-grid{grid-template-columns:1fr}.nf-art{max-width:200px;margin:8px auto 0}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"The 2026 pieces: how each model approaches the brief |…","description":"375 pieces across 31 model groups, filtered by use and model. Play the ones that run here; the rest link back to the post. Each piece’s source is noted…","url":"https://demos.specul.com/en/2026.html","inLanguage":"en","isPartOf":{"@type":"WebSite","url":"https://demos.specul.com/en/2026.html"}}</script>
+<meta content="The 2026 pieces: how each model approaches the brief |…" name="twitter:title"/><meta content="375 pieces across 31 model groups, filtered by use and model. Play the ones that run here; the rest link back to the post. Each piece’s source is noted…" name="twitter:description"/><link href="https://demos.specul.com/2026.html" hreflang="zh-CN" rel="alternate"/><link href="https://demos.specul.com/en/2026.html" hreflang="en" rel="alternate"/><link href="https://demos.specul.com/2026.html" hreflang="x-default" rel="alternate"/></head>
+<!-- B6（2026-10-09）：--accent 原先在这里被**内联到 body 上**（style="--accent:X"），
+     同时头部又写了 :root{--accent:X} —— 两处同一份值，冗余。
+     而内联样式会**赢过任何选择器**，于是主题级覆盖（html[data-theme="light"]{--accent:…}）
+     完全无效：vg 的引擎名在亮色主题下一直是 1.62:1 的金色，就是因为这条内联。
+     现在只保留头部那一处 —— 单一真相源，且可被主题覆盖。
+     ⚠ 这段注释里**不能出现反引号**：它在模板字符串内部，反引号会提前结束模板
+     （写这段时踩了第 4 次；pitfalls 里早有记录）。 -->
+<body class="brand-ambient has-tabbar has-tabbar-1row">
+<a class="t-skip" href="#main">Skip to main content</a>
+<header class="site-header">
+<div class="container site-bar">
+<a class="brand" href="https://specul.com/en/" title="投机取巧">
+<span aria-hidden="true" class="brand-dot"></span>
+<span class="brand-text">
+<span class="brand-name" id="markName">Speculative Speculation</span>
+<span class="brand-sub" id="markSub"></span>
+</span>
+</a>
+<nav aria-label="站点导航" class="nav-links">
+<a href="https://specul.com/en/">Home</a>
+<a href="https://learn.specul.com/en/">Learn</a>
+<a href="https://tools.specul.com/en/">Tools</a>
+<a href="https://models.specul.com/en/">Models</a>
+<a aria-current="page" href="https://demos.specul.com/en/">Playground</a>
+<a href="https://oss.specul.com/en/">OSS</a>
+<a href="https://hardware.specul.com/en/">Compute</a>
+<a href="https://papers.specul.com/en/">AI Papers</a>
+<a href="https://chain.specul.com/en/">Chain</a>
+<a href="https://nav.specul.com/en/">AI Directory</a>
+</nav>
+<!-- 2026-10-10：.nav-tools 从 nav 元素**内部**移到外面，与 .nav-links 平级。
+           放里面时窄屏下它会跟着链接一起换行：链接占满整行 → 按钮被挤到第三条
+           （实测顶栏 134px、按钮组孤零零一行）。移出来后它与品牌同行，
+           链接独占第二行居中 —— 这才是下面注释里方案 B 想要的样子。 -->
+<span class="nav-tools">
+<a aria-label="Search" class="icon-btn" href="https://specul.com/en/search.html" title="Search all sites"><span aria-hidden="true">⌕</span></a>
+<button aria-label="切换明暗主题" class="icon-btn" id="themeBtn" title="切换明暗主题" type="button">☾</button>
+<a aria-label="切换到中文" class="icon-btn" href="/2026.html" hreflang="zh-CN" id="langBtn" lang="zh-CN" title="切换到中文">中文</a>
+</span>
+<!-- B6（2026-10-09）：窄屏（≤900px）下 .nav-links 会隐藏，这个汉堡是替代入口。
+           行为在共享 brand.js 里（一处实现、十站共用），样式在共享 brand.css。
+           无脚本时 CSS 不会显示它，而是把 .nav-links 在窄屏放出来 —— 不会出现
+           「导航被藏进一个点了没反应的按钮」。 -->
+<button aria-controls="navDrawer" aria-expanded="false" aria-label="打开菜单" class="nav-burger" type="button">
+<i></i><i></i><i></i>
+</button>
+</div>
+</header>
+<div class="nav-scrim"></div>
+<aside aria-hidden="true" aria-label="站点导航" class="nav-drawer" id="navDrawer">
+<div class="nav-drawer-h">
+<span class="brand-name">Speculative Speculation</span>
+<span class="brand-sub"></span>
+<button aria-label="关闭" class="nav-dclose" type="button">×</button>
+</div>
+<nav class="nav-drawer-list">
+<a href="https://specul.com/en/"><span>Home</span><span aria-hidden="true" class="ar">→</span></a>
+<a href="https://learn.specul.com/en/"><span>Learn</span><span aria-hidden="true" class="ar">→</span></a>
+<a href="https://tools.specul.com/en/"><span>Tools</span><span aria-hidden="true" class="ar">→</span></a>
+<a href="https://models.specul.com/en/"><span>Models</span><span aria-hidden="true" class="ar">→</span></a>
+<a aria-current="page" href="https://demos.specul.com/en/"><span>Playground</span><span aria-hidden="true" class="ar">→</span></a>
+<a href="https://oss.specul.com/en/"><span>OSS</span><span aria-hidden="true" class="ar">→</span></a>
+<a class="nav-group-start" href="https://hardware.specul.com/en/"><span>Compute</span><span aria-hidden="true" class="ar">→</span></a>
+<a href="https://papers.specul.com/en/"><span>AI Papers</span><span aria-hidden="true" class="ar">→</span></a>
+<a href="https://chain.specul.com/en/"><span>Chain</span><span aria-hidden="true" class="ar">→</span></a>
+<a class="nav-group-start" data-nav-group="external" href="https://nav.specul.com/en/"><span>AI Directory</span><span aria-hidden="true" class="ar">↗</span></a>
+</nav>
+<div class="nav-drawer-foot">
+<p>Content sites cover learn, use, choose and run; AI Directory is a catalogue of off-site AI sites.</p>
+<nav><a href="https://specul.com/en/legal.html">Legal terms</a></nav>
+</div>
+</aside>
+<main id="main">
+<section class="u26-hero"><div class="container">
+<p class="u26-kicker">Demos · 2026 new work</p>
+<h1 class="u26-h1">The 2026 pieces: how each model approaches the brief</h1>
+<p class="u26-lede">375 pieces across 31 model groups, filtered by use and model. Play the ones that run here; the rest link back to the post. Each piece’s source is noted on its own page. Compare implementations, not single-piece model verdicts.</p>
+<p class="u26-note">Fifteen run embedded or hosted here; 360 link back to the author or the official page. Repos or pages with no declared licence are linked only, never fully copied.</p>
+</div></section>
+<section class="u26-section"><div class="container">
+<div class="u26-grid"><article class="u26-card" id="demos-genie-4">
+<div class="u26-meta"><span class="u26-badge">2026-11-18</span><span class="u26-tag">Official demo / 1</span></div>
+<h2>Genie 4: edit a world live in the browser</h2>
+<p class="u26-p">Google DeepMind opened Genie 4 to eligible Google AI Ultra subscribers: change weather, add characters or move the camera in a running world with natural language; native audio for the first time; a Project Genie agent builds worlds through conversation, and a community gallery publishes and remixes them. Official page linked; no video copied.</p>
+<dl class="u26-dl"><dt>Demos</dt><dd>1</dd><dt>Type</dt><dd>Live world / native audio</dd><dt>Run</dt><dd>Browser (Ultra)</dd><dt>Licence</dt><dd>official-media 1</dd></dl>
+<div class="u26-block"><b>Why it matters</b><p>It shows a model output that is not a video but a world you can keep editing: mid-session prompting turns generation from a one-shot request into continuous interaction, while native audio changes with the scene. For games, spatial design, interactive learning and robotics simulation, it is 2026’s closest public demo of a playable world model.</p></div>
+<div class="u26-block u26-boundary"><b>Boundary / what it does not claim</b><p>Currently limited to eligible AI Ultra subscribers, with Pro on a waitlist; no parameter count, benchmark, context or API price is disclosed, and developers cannot call it directly. Google lists latency, physics fidelity, audio precision and scene persistence as open problems; all output carries SynthID. It does not claim production-grade simulation or replacement of the traditional 3D pipeline.</p></div>
+<p class="u26-src">Sources：<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/" rel="noopener" target="_blank">Google official blog (2026-11-18)</a> · <a href="https://deepmind.google/models/genie/" rel="noopener" target="_blank">DeepMind Genie 4 model page</a></p>
+</article><article class="u26-card wide" id="demos-2026-11-seven-models">
+<div class="u26-meta"><span class="u26-badge">2026-11</span><span class="u26-tag">Collection / 35 pieces</span></div>
+<h2>Five pieces each from seven models: GLM-5.3, Qwen3.8-Max, MiniMax M3.1, Gemini 4 Argon, DeepSeek V4.1, Step 5, Ornith 1.5</h2>
+<p class="u26-p">Five self-contained HTML pieces from each of seven 100-piece collections, 35 in total: 5 tools/interfaces, 12 content/visual, 8 interaction, 10 data visualisation. They span dashboards, tide and orbital charts, ferrofluid and Chladni plates, an n-body sandbox, origami and sumi-e, all linked to GitHub Pages with no full files copied.</p>
+<dl class="u26-dl"><dt>Pieces</dt><dd>35</dd><dt>Models</dt><dd>7</dd><dt>Uses</dt><dd>工具 5 · 内容 12 · 互动 8 · 数据 10</dd><dt>Run</dt><dd>External 35</dd><dt>Licence</dt><dd>Unstated 35</dd></dl>
+<div class="u26-block"><b>Why it matters</b><p>Under the same period and source structure, seven models’ handling of instruments, data and crafted visuals can be compared side by side; only 5 of 100 pieces per collection are included, useful for spotting style differences, not for ranking models.</p></div>
+<div class="u26-block u26-boundary"><b>Boundary / what it does not claim</b><p>Only 5 of 100 pieces per model, so selection bias is obvious; this is neither a same-prompt comparison nor a capability evaluation. The repositories declare no licence, so the site links out only; local screenshots are card previews.</p></div>
+<p class="u26-src">Sources：<a href="https://github.com/MiaAI-Lab/GLM-5.3-100-HTML-Files" rel="noopener" target="_blank">GLM-5.3</a> · <a href="https://github.com/MiaAI-Lab/Qwen3.8-Max-100-HTML-Files" rel="noopener" target="_blank">Qwen3.8-Max</a> · <a href="https://github.com/MiaAI-Lab/MiniMax-M3.1-Flash-100-HTML-Files" rel="noopener" target="_blank">MiniMax M3.1</a> · <a href="https://github.com/MiaAI-Lab/Gemini-4-Argon-HTML-Files" rel="noopener" target="_blank">Gemini 4 Argon</a> · <a href="https://github.com/MiaAI-Lab/DeepSeek-v4.1-Flash-100-HTML-Files" rel="noopener" target="_blank">DeepSeek V4.1</a> · <a href="https://github.com/MiaAI-Lab/Step-5-Preview-100-HTML-Files" rel="noopener" target="_blank">Step 5</a> · <a href="https://github.com/MiaAI-Lab/Ornith-1.5-122B-HTML-Files" rel="noopener" target="_blank">Ornith 1.5</a></p>
+</article><article class="u26-card wide" id="demos-2026-11-three-more-models">
+<div class="u26-meta"><span class="u26-badge">2026-11</span><span class="u26-tag">Collection / 15 pieces</span></div>
+<h2>Five more pieces each from Claude Opus 5.5, GPT-6.2 Astra and Gemini 4 Neon</h2>
+<p class="u26-p">Five pieces from each of three same-structure 100-piece single-file HTML collections, 15 in total: five content/visual, five data visualisation, three interaction, one tools/interface and one education piece. They span a glassmorphic landing page, brass orrery, deep-sea descent, 24 solar terms, magnetic-field lab, pearl abacus, firefly meadow, postcard postmark, multiple exposure, aurora train window, sundial, hydrothermal vent, kintsugi, pendulum wave and double-slit interference. All link to GitHub Pages with no full files copied.</p>
+<dl class="u26-dl"><dt>Pieces</dt><dd>15</dd><dt>Models</dt><dd>3</dd><dt>Uses</dt><dd>内容 5 · 数据 5 · 互动 3 · 工具 1 · 教育 1</dd><dt>Run</dt><dd>External 15</dd><dt>Licence</dt><dd>Unstated 15</dd></dl>
+<div class="u26-block"><b>Why it matters</b><p>All three come from the same publication structure, so their handling of objects, scientific instruments and editorial layout can be compared directly; Opus 5.5 had only one official sample before, while Astra and Neon enter the site for the first time. Only 5 of 100 pieces per collection are included, useful for spotting style differences, not for ranking models.</p></div>
+<div class="u26-block u26-boundary"><b>Boundary / what it does not claim</b><p>Only 5 of 100 pieces per model, so selection bias is obvious; the three sets use different subjects and are not a same-brief comparison. The repositories declare no licence, so the site links out only; local screenshots are card previews.</p></div>
+<p class="u26-src">Sources：<a href="https://github.com/MiaAI-Lab/Claude-Opus-5.5-100-HTML-Files" rel="noopener" target="_blank">Claude Opus 5.5</a> · <a href="https://github.com/MiaAI-Lab/GPT-6.2-Astra-100-HTML-Files" rel="noopener" target="_blank">GPT-6.2 Astra</a> · <a href="https://github.com/MiaAI-Lab/Gemini-4-Neon-100-HTML-Files" rel="noopener" target="_blank">Gemini 4 Neon</a></p>
+</article><article class="u26-card wide" id="demos-2026-11-five-more-models">
+<div class="u26-meta"><span class="u26-badge">2026-11</span><span class="u26-tag">Collection / 24 pieces</span></div>
+<h2>Five more models: GPT-6.1 Terra, Grok 4.7, Claude Haiku 5.5, MiMo V2.6 Pro and Hy4 flash</h2>
+<p class="u26-p">Five pieces each from four 100-piece single-file HTML collections that were previously absent, plus four more from Hy4 flash: 24 in total — eight content/visual, six interaction, four education, three tools/interface and three data visualisation. They span record sleeves, a cloud atlas, a clay studio schedule, an invented fungi guide, a lunar year ring, a watch, a night market, glyph-rain HUD, a CRT arcade, a double pendulum, sine movements, a lunar almanac, a cassette deck, vending machine, ripple tank, isometric island, pinball, a moon wheel, cardboard orrery, submarine library and a night bus.</p>
+<dl class="u26-dl"><dt>Pieces</dt><dd>24</dd><dt>Models</dt><dd>5</dd><dt>Uses</dt><dd>内容 8 · 互动 6 · 教育 4 · 工具 3 · 数据 3</dd><dt>Run</dt><dd>External 24</dd><dt>Licence</dt><dd>Unstated 24</dd></dl>
+<div class="u26-block"><b>Why it matters</b><p>None of the four collections had a single piece on the site before; with five each, their handling of material, mechanics, physics and editorial layout can be read side by side. Hy4 flash goes from one piece to five, so a single sample is not mistaken for an overall style. The five sets use different subjects and are not a same-brief comparison.</p></div>
+<div class="u26-block u26-boundary"><b>Boundary / what it does not claim</b><p>Only 5 of 100 pieces per model, so selection bias is obvious; this is neither a same-brief comparison nor a capability evaluation. None of the repositories declares a licence, so the site links out only; local screenshots are card previews.</p></div>
+<p class="u26-src">Sources：<a href="https://github.com/MiaAI-Lab/GPT-6.1-Terra-100-HTML-files" rel="noopener" target="_blank">GPT-6.1 Terra</a> · <a href="https://github.com/MiaAI-Lab/Grok-4.7-100-HTML-Files" rel="noopener" target="_blank">Grok 4.7</a> · <a href="https://github.com/MiaAI-Lab/Haiku-5.5-100-HTML-Files" rel="noopener" target="_blank">Claude Haiku 5.5</a> · <a href="https://github.com/MiaAI-Lab/MiMo-V2.6-Pro-100-HTML-Files" rel="noopener" target="_blank">MiMo V2.6 Pro</a> · <a href="https://github.com/MiaAI-Lab/Hy4-Flash-100-HTML-Files" rel="noopener" target="_blank">Hy4 flash</a></p>
+</article><article class="u26-card wide" id="demos-2026-11-six-more-models">
+<div class="u26-meta"><span class="u26-badge">2026-11</span><span class="u26-tag">Collection / 30 pieces</span></div>
+<h2>Six more models: GPT-6 Astra, Claude Fable 5.1, Claude Sonnet 5.5, Muse Spark 1.3, Ox Alpha and Qwen3.8-27B</h2>
+<p class="u26-p">Five pieces each from six previously unlisted 100-piece single-file HTML collections: 30 in total — twelve content/visual, eight interaction, three education, four tools/interface and three data visualisation. They span magazine covers, a brutalist portfolio, a lantern wish, a tesseract, type experiments, liquid metal, an isometric city, a 1926 newspaper front page, a holographic ticket, a synth, a pure-CSS lighthouse, a pixel campfire, Swiss posters, a concrete architecture page, a Memphis poster maker, a climate ledger, paper cut-outs, a colour lab, a brass orrery, kintsugi, a glacier timeline, a rose window, a pixel garden, an isometric room and Bauhaus geometry.</p>
+<dl class="u26-dl"><dt>Pieces</dt><dd>30</dd><dt>Models</dt><dd>6</dd><dt>Uses</dt><dd>内容 12 · 互动 8 · 教育 3 · 工具 4 · 数据 3</dd><dt>Run</dt><dd>External 30</dd><dt>Licence</dt><dd>Unstated 30</dd></dl>
+<div class="u26-block"><b>Why it matters</b><p>These six sets fill model generations that were absent or barely sampled: GPT-6 Astra precedes 6.1/6.2, Fable 5.1 sits beside 5.2, Sonnet 5.5 is a different tier from Opus 5.5, while Muse Spark 1.3, Ox Alpha and a local 27B Qwen3.8 add non-frontier and open-weight contrast. Subjects are deliberately spread out so the thirty pieces are not read as a same-brief comparison.</p></div>
+<div class="u26-block u26-boundary"><b>Boundary / what it does not claim</b><p>Only 5 of 100 pieces per model, so selection bias is obvious; this is neither a same-brief comparison nor a capability evaluation. None of the repositories declares a licence, so the site links out only; local screenshots are card previews.</p></div>
+<p class="u26-src">Sources：<a href="https://github.com/MiaAI-Lab/GPT-6-Astra-100-HTML-Files" rel="noopener" target="_blank">GPT-6 Astra</a> · <a href="https://github.com/MiaAI-Lab/Fable-5.1-100-HTML-Files" rel="noopener" target="_blank">Claude Fable 5.1</a> · <a href="https://github.com/MiaAI-Lab/Sonnet-5.5-100-HTML-Files" rel="noopener" target="_blank">Claude Sonnet 5.5</a> · <a href="https://github.com/MiaAI-Lab/Muse-Spark-1.3-HTML-Files" rel="noopener" target="_blank">Muse Spark 1.3</a> · <a href="https://github.com/MiaAI-Lab/Ox-Alpha-100-HTML-Files" rel="noopener" target="_blank">Ox Alpha</a> · <a href="https://github.com/MiaAI-Lab/Qwen3.8-27B-100-HTML-Files" rel="noopener" target="_blank">Qwen3.8-27B</a></p>
+</article><article class="u26-card" id="demos-2026-11-models">
+<div class="u26-meta"><span class="u26-badge">2026-11</span><span class="u26-tag">Official demos / 3</span></div>
+<h2>2026-11 official model demos: 3D, video and work</h2>
+<p class="u26-p">Kimi K3.1 Pro on 3D and long-horizon code, Gemini Omni 1.2 Flash on 15-second video and multi-turn editing, and Hy4 flash on 150+ tok/s everyday work. All link to the official release pages; no images or video are copied. All three are curated vendor cases, not same-prompt comparisons.</p>
+<dl class="u26-dl"><dt>Demos</dt><dd>3</dd><dt>Type</dt><dd>3D / video / work</dd><dt>Run</dt><dd>External 3</dd><dt>Licence</dt><dd>official-media 3</dd></dl>
+<div class="u26-block"><b>Why it matters</b><p>The three cover the month’s most useful capabilities: 3D assets and engineering scripts, multi-turn long-video editing, and office work with 1M context at 12B active parameters.</p></div>
+<div class="u26-block u26-boundary"><b>Boundary / what it does not claim</b><p>The official pages provide curated cases, not full prompts, seeds or project files; Kimi’s 3D preview is in-app, Gemini outputs carry SynthID, and Hy4’s WorkIndex is Tencent’s internal benchmark. None is an independent evaluation.</p></div>
+<p class="u26-src">Sources：<a href="https://www.kimi.com/news/kimi-k3-1-pro" rel="noopener" target="_blank">Kimi K3.1 Pro</a> · <a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/" rel="noopener" target="_blank">Gemini Omni 1.2 Flash</a> · <a href="https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/" rel="noopener" target="_blank">Hy4 flash</a></p>
+</article><article class="u26-card" id="demos-gpt-6-2">
+<div class="u26-meta"><span class="u26-badge">2026</span><span class="u26-tag">Collection / 100 pieces</span></div>
+<h2>GPT-6.2 Sol: 100 HTML visual studies</h2>
+<p class="u26-p">One hundred web pieces from one model: interaction 23, data 27, content 26, tools 14, model demos 10. All link back to the publisher; unlicensed full files are not copied.</p>
+<dl class="u26-dl"><dt>Pieces</dt><dd>100</dd><dt>Uses</dt><dd>互动 23 · 数据 27 · 内容 26 · 工具 14 · 模型 10</dd><dt>Run</dt><dd>外链 100</dd><dt>Licence</dt><dd>未声明 100</dd></dl>
+<div class="u26-block"><b>Why it matters</b><p>A batch sample for seeing one model’s style distribution across five uses; not a capability leaderboard, and no single piece is a verdict.</p></div>
+<div class="u26-block u26-boundary"><b>Boundary / what it does not claim</b><p>Same brief is not the same prompt, and 100 pieces are not 100 independent evaluations. The repository declares no licence; this site only links out.</p></div>
+<p class="u26-src">Sources：<a href="https://github.com/MiaAI-Lab/GPT-6.2-Sol-100-HTML-Files" rel="noopener" target="_blank">Source repository</a></p>
+</article><article class="u26-card" id="demos-fable-5-2">
+<div class="u26-meta"><span class="u26-badge">2026</span><span class="u26-tag">Collection / 86 pieces</span></div>
+<h2>Claude Fable 5.2: 86 interaction and visual experiments</h2>
+<p class="u26-p">Of 86 pieces, 57 are interaction, 24 data visualisation, two content/visual and three tools/interfaces; the set leans interactive and shows how one model handles state, motion and input.</p>
+<dl class="u26-dl"><dt>Pieces</dt><dd>86</dd><dt>Uses</dt><dd>互动 57 · 数据 24 · 内容 2 · 工具 3</dd><dt>Run</dt><dd>外链 86</dd><dt>Licence</dt><dd>未声明 86</dd></dl>
+<div class="u26-block"><b>Why it matters</b><p>Interaction dominates, making it possible to separate pieces that are genuinely operable from those that only look animated.</p></div>
+<div class="u26-block u26-boundary"><b>Boundary / what it does not claim</b><p>“Operable” is this site’s own open result, not the author’s claim; none of the 86 unlicensed pieces are copied.</p></div>
+<p class="u26-src">Sources：<a href="https://github.com/MiaAI-Lab/Claude-Fable-5.2-HTML-Files" rel="noopener" target="_blank">Source repository</a> · <a href="https://github.com/fengyiqicoder/awesome-fable-5.2" rel="noopener" target="_blank">Supplementary source</a></p>
+</article><article class="u26-card" id="demos-opus-5-5">
+<div class="u26-meta"><span class="u26-badge">2026</span><span class="u26-tag">Controlled pair / 1 piece</span></div>
+<h2>Claude Opus 5.5: one B6 code-animation sample</h2>
+<p class="u26-p">The Claude Opus 5.5 take on the same B6 prompt. Compare it with the DeepSeek V4.1-Flash version; the source repository states this is not a controlled model comparison.</p>
+<dl class="u26-dl"><dt>Pieces</dt><dd>1</dd><dt>Uses</dt><dd>内容与视觉 1</dd><dt>Run</dt><dd>站内 1</dd><dt>Licence</dt><dd>free-share 1</dd></dl>
+<div class="u26-block"><b>Why it matters</b><p>Its value is the same-brief pair: under one prompt, the two models’ code-animation choices can be compared directly.</p></div>
+<div class="u26-block u26-boundary"><b>Boundary / what it does not claim</b><p>One piece, one brief, uncontrolled; it cannot establish overall model capability, and the pair is not an evaluation.</p></div>
+<p class="u26-src">Sources：<a href="https://github.com/XiaoyeCodes/code-animation-prompts" rel="noopener" target="_blank">Source repository</a></p>
+</article><article class="u26-card" id="demos-deepseek-v4-1">
+<div class="u26-meta"><span class="u26-badge">2026</span><span class="u26-tag">Controlled pair / 2 pieces</span></div>
+<h2>DeepSeek V4.1-Flash: B6 and X7 code animations</h2>
+<p class="u26-p">B6 shares its prompt with Opus; X7 came from a single line. Both run here under a free-share licence.</p>
+<dl class="u26-dl"><dt>Pieces</dt><dd>2</dd><dt>Uses</dt><dd>内容与视觉 2</dd><dt>Run</dt><dd>站内 2</dd><dt>Licence</dt><dd>free-share 2</dd></dl>
+<div class="u26-block"><b>Why it matters</b><p>Both run here, so the B6 difference and how far a one-line X7 brief goes can be inspected directly.</p></div>
+<div class="u26-block u26-boundary"><b>Boundary / what it does not claim</b><p>The B6 pair is still not a controlled evaluation; X7 has one piece and cannot represent the model’s general level.</p></div>
+<p class="u26-src">Sources：<a href="https://github.com/XiaoyeCodes/code-animation-prompts" rel="noopener" target="_blank">Source repository</a></p>
+</article></div>
+<p class="u26-note"><b>Next：</b><a href="https://demos.specul.com/en/">Back to all pieces →</a></p>
+</div></section>
+</main>
+<footer class="site-footer foot-single">
+<div class="container foot-line">
+<div class="foot-brand">
+<span class="foot-brand-main">
+<span aria-hidden="true" class="brand-dot"></span>
+<span class="foot-copy">Specul · specul.com</span>
+</span>
+<span class="foot-license"><a href="https://specul.com/LICENSE-CONTENT.txt">Content CC BY 4.0</a><span aria-hidden="true" class="sep">·</span><a href="https://specul.com/LICENSE.txt">Code MIT</a><span aria-hidden="true" class="sep">·</span><a class="foot-source" href="https://github.com/speculcom/ai-handbook" rel="noopener" target="_blank">Source</a></span>
+</div>
+<nav aria-label="Footer site links" class="foot-sites">
+<a class="site-link" href="https://specul.com/en/">Home</a><span aria-hidden="true" class="sep site-sep">·</span>
+<a class="site-link" href="https://learn.specul.com/en/">Learn</a><span aria-hidden="true" class="sep site-sep">·</span>
+<a class="site-link" href="https://tools.specul.com/en/">Tools</a><span aria-hidden="true" class="sep site-sep">·</span>
+<a class="site-link" href="https://models.specul.com/en/">Models</a><span aria-hidden="true" class="sep site-sep">·</span>
+<a class="site-link" href="https://demos.specul.com/en/">Demos</a><span aria-hidden="true" class="sep site-sep">·</span>
+<a class="site-link" href="https://oss.specul.com/en/">OSS</a><span aria-hidden="true" class="sep site-sep">·</span>
+<a class="site-link" href="https://hardware.specul.com/en/">Compute</a><span aria-hidden="true" class="sep site-sep">·</span>
+<a class="site-link" href="https://papers.specul.com/en/">Papers</a><span aria-hidden="true" class="sep site-sep">·</span>
+<a class="site-link" href="https://chain.specul.com/en/">Chain</a><span aria-hidden="true" class="sep site-sep">·</span>
+<a class="site-link" href="https://nav.specul.com/en/">Directory</a>
+</nav>
+<nav aria-label="Legal and corrections" class="foot-legal">
+<a href="https://specul.com/en/legal.html">Legal</a><span aria-hidden="true" class="sep">·</span>
+<a href="https://specul.com/en/legal.html#s8">Privacy</a><span aria-hidden="true" class="sep">·</span>
+<a href="https://specul.com/en/correct.html">Corrections</a>
+</nav>
+</div>
+</footer>
+<nav aria-label="快捷导航" class="nav-tabbar nav-tabbar-1row">
+<a href="https://specul.com/en/"><span aria-hidden="true" class="ti">◎</span>Home</a>
+<a href="https://learn.specul.com/en/"><span aria-hidden="true" class="ti">▤</span>Learn</a>
+<a href="https://tools.specul.com/en/"><span aria-hidden="true" class="ti">◈</span>Tools</a>
+<a href="https://models.specul.com/en/"><span aria-hidden="true" class="ti">▦</span>Models</a>
+<a aria-current="page" href="https://demos.specul.com/en/"><span aria-hidden="true" class="ti">▷</span>Demos</a>
+<a href="https://oss.specul.com/en/"><span aria-hidden="true" class="ti">▧</span>OSS</a>
+<a href="https://hardware.specul.com/en/"><span aria-hidden="true" class="ti">▣</span>Chips</a>
+<a href="https://papers.specul.com/en/"><span aria-hidden="true" class="ti">▥</span>Papers</a>
+<a href="https://chain.specul.com/en/"><span aria-hidden="true" class="ti">◇</span>Chain</a>
+<a data-nav-group="external" href="https://nav.specul.com/en/"><span aria-hidden="true" class="ti">↗</span>Nav</a>
+</nav>
+</body>
+</html>
